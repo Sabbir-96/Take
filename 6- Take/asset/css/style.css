@@ -1,0 +1,395 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,nav,div,section,a,p,ul,ol,li,span,header,footer,img{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header part in css start */
+.header_main{
+    background-image: url(../image/h_bg_pic.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    padding-top: 50px;
+}
+
+.h_title{
+    font-size: 60px;
+    font-weight: light;
+    color: #ffffff;
+    padding-top: 350px;
+}
+
+.h_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 380px;
+}
+
+.iphone {
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
+/* header part in css end */
+
+
+/* text part in css start */
+.text_part{
+    margin-bottom: 80px;
+}
+.text_contain{
+    margin-top: 110px;
+}
+.text_contain2{
+    margin-top: 275px;
+}
+
+.t_title{
+    font-size: 35px;
+    font-weight: light;
+    color: #222626;
+}
+
+.t_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+    padding-top: 35px;
+}
+/* text part in css end */
+
+/* about part in css start */
+.about1{
+    width: 100%;
+    height: 278px;
+    background-color: #f5989d;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about2{
+    width: 100%;
+    height: 278px;
+    background-color: #615f7d;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about3{
+    background-image: url(../image/about1.jpg);
+    width: 100%;
+    height: 278px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about4{
+    background-image: url(../image/about2.jpg);
+    width: 100%;
+    height: 278px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about5{
+    width: 100%;
+    height: 278px;
+    background-color: #82ca9c;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.a_title{
+    font-size: 30px;
+    font-weight: light;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.a_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.a_link{
+    padding-top: 30px;
+}
+
+.a_link a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.a_link a .a_icon{
+    padding-left: 20px;
+}
+
+.link2{
+    padding-top: 30px; 
+}
+
+/* about containe part css start */
+.about_contain{
+    padding-bottom: 160px;
+}
+.about_head{
+    font-size: 35px;
+    font-weight: light;
+    color: #222626;
+    padding-top: 100px;
+}
+
+.about_title{
+    font-size: 13px;
+    font-weight: 600;
+    color: #67676d;
+    padding-top: 70px;
+}
+
+.about_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #959595;
+    padding-top: 30px;
+}
+/* about containe part css end */
+/* about part in css end */
+
+
+/* banner part in css start */
+.banner_main{
+    background-image: url(../image/banner.jpg);
+    padding-bottom: 135px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+
+.b_title{
+    font-size: 60px;
+    font-weight: light;
+    color: #ffffff;
+    padding-top: 450px;
+}
+
+.b_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 20px;
+}
+/* banner part in css end */
+
+
+/* service part in css start */
+.service_main{
+    background-color: #82ca9c;
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+
+.ser_head{
+    font-size: 35px;
+    font-weight: light;
+    color: #ffffff;
+}
+
+.ser_title{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.ser_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 30px;
+}
+/* service part in css end */
+
+/* team part in css start */
+.team_main{
+    background-color: #f6f7fa;
+    padding-top: 100px;
+    padding-bottom: 145px;
+}
+.team_contain{
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 45px;
+}
+
+.team_bulr{
+    width: 80px;
+    height: 25px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_bulr a{
+    font-size: 11px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.team_title{
+    font-size: 30.4px;
+    font-weight: light;
+    color: #2e3b4e;
+    padding-top: 25px;
+}
+.team_text{
+    font-size: 14.2px;
+    font-weight: 400;
+    color: #94a6b3;
+    padding-top: 25px;
+}
+.team_btn{
+    width: 150px;
+    height: 45px;
+    background-color: #82ca9c;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.team_btn a{
+    font-size: 13.2px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.team_icon i{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #c5c5c5;
+}
+
+.team_contain2{
+    width: 100%;
+    height: 420px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 83px 8px rgba(237,238,241,1);
+  
+}
+
+.team_bulr2{
+    width: 110px;
+    height: 25px;
+    background-color: #bd8cbf;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_bulr2 a{
+    font-size: 11px;
+    font-weight: 800;
+    color: #ffffff;
+}
+/* team part in css end */
+
+/* footer part in html start */
+footer{
+    padding-top: 130px;
+    padding-bottom: 155px;
+    background-color: #192431;
+}
+
+.f_head{
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.f_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.f_text2{
+    font-size: 13px;
+    font-weight: 400;
+    color: #57697f;
+    padding-top: 10px;
+}
+.butn{
+    position: relative;
+}
+.box {
+	width: 400px;
+	height: 50px;
+	margin-top: 30px;
+    border: none;
+}
+.box[type=text]:focus{
+    outline: 0px solid #ffffff;     /* oranges! yey */
+}
+
+.box2 {
+	width: 70px;
+	height: 50px;
+	border: none;
+	background-color: #82ca9c;
+	position: absolute;
+	top: 33.5%;
+	right: 14%;
+}
+
+.box2 i{
+    font-size: 30px;
+    color: #ffffff;
+}
+.CLEAR{
+    clear: both;
+}
+.f_con p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 65px;
+}
+
+.f_con a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #e1e1e1;
+}
+/* footer part in html end */
